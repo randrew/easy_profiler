@@ -38,7 +38,7 @@ SET(CMAKE_INSTALL_RPATH "$ORIGIN")
 
 add_subdirectory(easy_profiler_core)
 if (NOT EASY_PROFILER_NO_GUI)
-    add_subdirectory(profiler_gui)
+    #add_subdirectory(profiler_gui)
 endif()
 add_subdirectory(easy_profiler_converter)
 
