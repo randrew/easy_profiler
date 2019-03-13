@@ -63,6 +63,7 @@ ArbitraryValueToolTip::ArbitraryValueToolTip(const QString& _name
     , const profiler::BlocksTree& _block, QWidget* _parent)
     : QWidget(_parent, Qt::Tool | Qt::SubWindow | Qt::FramelessWindowHint)
 {
+    setAttribute(Qt::WA_ShowWithoutActivating);
     auto content = new QWidget();
     content->setObjectName("cnt");
 
