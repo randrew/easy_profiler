@@ -133,8 +133,8 @@ const bool SIMPLIFIED_REGIME_COLUMNS[COL_COLUMNS_NUMBER] = {
 
 BlocksTreeWidget::BlocksTreeWidget(QWidget* _parent)
     : Parent(_parent)
-    , m_beginTime(::std::numeric_limits<decltype(m_beginTime)>::max())
     , m_lastFound(nullptr)
+    , m_beginTime(::std::numeric_limits<decltype(m_beginTime)>::max())
     , m_progress(nullptr)
     , m_hintLabel(nullptr)
     , m_valueTooltip(nullptr)
